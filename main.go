@@ -2,10 +2,12 @@ package main
 
 import "fmt"
 
-func Cat() {
-	fmt.Print("Miao~ ~ ~ ~")
+func Cat() string {
+	// return "Miao~ ~ ~ ~"
+	return "Wang ~ ~"
 }
 
 func main() {
-	Cat()
+	saying := Cat()
+	fmt.Print(saying)
 }
